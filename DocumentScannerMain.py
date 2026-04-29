@@ -3,14 +3,15 @@ import numpy as np
 import utlis
 
 
-########################################################################
+
 webCamFeed = True
 pathImage = "1.jpg"
 cap = cv2.VideoCapture(1)
 cap.set(10,160)
 heightImg = 640
 widthImg  = 480
-########################################################################
+
+
 
 utlis.initializeTrackbars()
 count=0
